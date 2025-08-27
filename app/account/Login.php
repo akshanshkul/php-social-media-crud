@@ -20,7 +20,8 @@ class Login
         if ($stmt->fetch()) {
             if (password_verify($password, $hashedPassword)) {
                 Session::set("userId", $userId);
-                Session::set("email",$email);
+                Session::set("email", $email);
+                Session::set("loggedIn", true);
                 return $userId;
             }
         }

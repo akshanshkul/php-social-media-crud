@@ -1,3 +1,15 @@
+<?php
+require './vendor/autoload.php';
+
+use App\core\Helper;
+use App\core\Session;
+
+if(!Session::get('loggedIn')) {
+    header("Location: login");
+    exit;
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
