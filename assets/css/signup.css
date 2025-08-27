@@ -1,0 +1,55 @@
+body {
+  background: #e2e6ea;
+  font-family: "Inter", Arial, sans-serif;
+}
+.register-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 32px;
+  text-align: center;
+}
+.profile-pic img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #dee2e6;
+  object-fit: cover;
+}
+
+.profile-pic button {
+  margin-top: 8px;
+  background: #f8f9fa;
+  border: 1px solid #2196f3;
+  color: #2196f3;
+  border-radius: 8px;
+  padding: 4px 12px;
+  cursor: pointer;
+}
+form input {
+  display: block;
+  width: 100%;
+  margin: 12px 0;
+  padding: 10px 12px;
+  border: 1px solid #e2e6ea;
+  border-radius: 8px;
+  background: #f6f7f9;
+}
+.password-row {
+  display: flex;
+  gap: 12px;
+}
+button[type="submit"] {
+  width: 100%;
+  background: #2196f3;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  margin-top: 18px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background 0.2s;
+}

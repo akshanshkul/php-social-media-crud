@@ -1,0 +1,51 @@
+body {
+  background: #e2e6ea;
+  font-family: 'Inter', Arial, sans-serif;
+}
+.login-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 32px;
+  text-align: center;
+}
+h2 {
+  margin-bottom: 28px;
+}
+label {
+  display: block;
+  font-weight: 500;
+  margin: 16px 0 4px;
+  text-align: left;
+}
+input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #e2e6ea;
+  margin-bottom: 8px;
+  background: #f6f7f9;
+  box-sizing: border-box;
+}
+button[type="submit"] {
+  width: 100%;
+  background: #2196f3;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  padding: 14px;
+  font-size: 1.1em;
+  cursor: pointer;
+  margin-top: 16px;
+  transition: background 0.2s;
+}
+.account-link {
+  margin-top: 18px;
+  font-size: 0.97em;
+}
+.account-link a {
+  color: #2196f3;
+  text-decoration: underline;
+}
