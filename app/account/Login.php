@@ -9,10 +9,12 @@ class Login
     public function __construct()
     {
         $this->db = Database::db();
+        Session::init();
     }
 
     public function authenticate($email, $password)
     {
+        
         $stmt = $this->db->prepare("SELECT id, password FROM users WHERE email = ?");
         $stmt->bind_param("s", $email);
         $stmt->execute();

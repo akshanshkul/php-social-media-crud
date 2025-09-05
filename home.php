@@ -3,7 +3,7 @@ require './vendor/autoload.php';
 
 use App\core\Helper;
 use App\core\Session;
-
+Session::init();
 if(!Session::get('loggedIn')) {
     header("Location: login");
     exit;
